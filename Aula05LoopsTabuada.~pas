@@ -1,0 +1,49 @@
+unit Aula05LoopsTabuada;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TfrmTabuada = class(TForm)
+    lblTabuada: TLabel;
+    cbbTabuada: TComboBox;
+    lblResultado: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure cbbTabuadaChange(Sender: TObject);
+    procedure lblTabuadaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTabuada: TfrmTabuada;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmTabuada.FormCreate(Sender: TObject);
+var
+  i : Integer;
+begin
+  for i := 1 to 10 do
+    cbbTabuada.Items.Add(IntToStr(i));
+end;
+
+procedure TfrmTabuada.cbbTabuadaChange(Sender: TObject);
+var
+  x : Integer;
+begin
+  lblResultado.Caption := '';
+
+  for x := 1 to 10 do
+    lblResultado.Caption := lblResultado.Caption + cbbTabuada.Text + ' * ' + IntToStr(x) + ' = ' + IntToStr(StrToInt(cbbTabuada.Text) * x) + #13; 
+end;
+
+end.
+ 
