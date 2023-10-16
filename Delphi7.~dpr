@@ -9,21 +9,13 @@ uses
   Aula07CaseOfEShellApi in 'Aula07CaseOfEShellApi.pas' {frmCaseOfShellAPI},
   Aula08LoginSimples in 'Aula08LoginSimples.pas' {frmLogin},
   Aula08LoginSimplesScreenAplicativo in 'Aula08LoginSimplesScreenAplicativo.pas' {frmAplicativo},
-  Aula09LoginAlternativo in 'Aula09LoginAlternativo.pas' {frmLoginAlternativo},
-  Aula09LoginAlternativoScreenAplicativo in 'Aula09LoginAlternativoScreenAplicativo.pas' {frmLoginAlternativoScreenAplicativo},
-  Aula10AbrindoArquivoDeTexto in 'Aula10AbrindoArquivoDeTexto.pas' {frmManipulando},
-  Aula11SalvandoArquivosDeTexto in 'Aula11SalvandoArquivosDeTexto.pas' {frmSalvandoArquivosTxt},
-  Aula12InversorDeLinks in 'Aula12InversorDeLinks.pas' {frmInverdorDeLink};
+  Aula09LoginAlternativo in 'Aula09LoginAlternativo.pas' {frmLoginAlternativo};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TfrmInverdorDeLink, frmInverdorDeLink);
-  Application.CreateForm(TfrmSalvandoArquivosTxt, frmSalvandoArquivosTxt);
-  Application.CreateForm(TfrmManipulando, frmManipulando);
   Application.CreateForm(TfrmLoginAlternativo, frmLoginAlternativo);
-  Application.CreateForm(TfrmLoginAlternativoScreenAplicativo, frmLoginAlternativoScreenAplicativo);
   Application.CreateForm(TfrmLogin, frmLogin);
   Application.CreateForm(TfrmCaseOfShellAPI, frmCaseOfShellAPI);
   Application.CreateForm(TfrmWhile, frmWhile);

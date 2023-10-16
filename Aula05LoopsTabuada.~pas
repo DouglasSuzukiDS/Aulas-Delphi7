@@ -13,7 +13,6 @@ type
     lblResultado: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure cbbTabuadaChange(Sender: TObject);
-    procedure lblTabuadaClick(Sender: TObject);
   private
     { Private declarations }
   public

@@ -11,6 +11,7 @@ object frmTabuada: TfrmTabuada
   Font.Name = 'JetBrains Mono'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 14

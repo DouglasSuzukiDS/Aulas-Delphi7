@@ -13,8 +13,7 @@ uses
   Aula09LoginAlternativoScreenAplicativo in 'Aula09LoginAlternativoScreenAplicativo.pas' {frmLoginAlternativoScreenAplicativo},
   Aula10AbrindoArquivoDeTexto in 'Aula10AbrindoArquivoDeTexto.pas' {frmManipulando},
   Aula11SalvandoArquivosDeTexto in 'Aula11SalvandoArquivosDeTexto.pas' {frmSalvandoArquivosTxt},
-  Aula12InversorDeLinks in 'Aula12InversorDeLinks.pas' {frmInverdorDeLink},
-  Aula03Variaveis in 'Aula03 - Variaveis\Aula03Variaveis.pas';
+  Aula12InversorDeLinks in 'Aula12InversorDeLinks.pas' {frmInverdorDeLink};
 
 {$R *.res}
 
